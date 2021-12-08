@@ -36,7 +36,8 @@ public:
                 return true;
             if (!visited[nbr])
             {
-                return dfsHelper(nbr, visited, node);
+                if (dfsHelper(nbr, visited, node))
+                    return true;
             }
         }
         return false;
