@@ -1,5 +1,7 @@
+? // this program is implemented for solving  a practise question.
+
 #include <bits/stdc++.h>
-using namespace std;
+    using namespace std;
 int find(int, vector<int> &);
 bool find_set(int x, int y, vector<int> &par)
 {

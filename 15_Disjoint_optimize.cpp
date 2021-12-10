@@ -1,3 +1,7 @@
+// To optimize the Disjoint set we have implemented two peices of code
+//i.e Union by rank
+// Path compression
+
 #include <iostream>
 #include <list>
 using namespace std;
